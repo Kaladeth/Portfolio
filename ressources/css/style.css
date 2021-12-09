@@ -1,11 +1,19 @@
 /* Informations générales du document
 Police : Genos
+Couleur : color:rgba(255, 255, 255, 0.76);
 */
-/* GENERAL */
+
+/* GENERAL
+=================================================================================== */
+
 html {
     font-family:'Genos', sans-serif;
+    color:rgba(255, 255, 255, 0.76);
 }
-/* NAVBAR */ 
+
+/* NAVBAR
+=================================================================================== */ 
+
 .logo {
     font-size:200%;
     font-weight:bold;
@@ -17,4 +25,59 @@ html {
 nav {
     background-color:darkblue;
     opacity:0.8;
+}
+
+/* PRESENTATION
+==================================================================================*/
+
+/* FOND
+- - - - - - - - - - */
+
+#presentation {
+    background-image:url(../img/presentation.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+/* TITRES
+- - - - - - - - - - */
+
+.mon-nom {
+    color:rgba(255, 255, 255, 0.76);
+    font-weight:900;
+    text-shadow:0px 10px 10px black;
+    font-family:'Acme', sans-serif;
+}
+.mon-nom h1 {
+    font-size:400%;
+}
+.titrage {
+    color:rgba(255, 255, 255, 0.76);
+}
+.titrage h2 {
+    font-size:450%;
+    font-weight:bolder;
+}
+
+/* BOUTONS
+- - - - - - - - - - */
+
+#presentation button {
+    background-color: #f0bc54;
+    width:100%;
+    font-family:'Courgette', sans-serif;
+    height:25%;
+    transition:all 0.8s;
+}
+#presentation button:hover {
+    background-color: cyan;
+    color:red;
+}
+#presentation i {
+    font-size:200px;
+    color:rgb(80, 241, 215);
+    transition:all 0.8s;
+}
+#presentation i:hover {
+    color:red
 }
