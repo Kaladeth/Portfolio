@@ -93,7 +93,7 @@ nav {
     color:red;
 }
 #presentation i {
-    font-size:200px;
+    font-size:100px;
     color:rgb(80, 241, 215);
     transition:all 0.8s;
 }
@@ -117,5 +117,53 @@ nav {
     vertical-align: middle;
     position:relative;
     top:48px;
+    border-radius:20%;
+    margin-bottom:70px;
+}
+
+/* TECHNOLOGIES 
+===================================================================================== */
+
+/* BLOCS SKILLS 
+- - - - - - - - - - */
+
+#techs {
+    background-image: url(../img/techs.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+
+#techs i {
+    font-size:120px;
+    color:rgba(30, 218, 124, 0.9);
+}
+#techs i:hover {
+    filter:brightness(1.6);
     
+}
+#techs p:hover {
+    filter:brightness(1.6);
+}
+#techs p {
+    text-align:center;
+    font-family:'Genos', sans-serif;
+    color:rgba(30, 218, 124, 0.9);
+}
+.bloc-skill {
+    margin-top:50px;
+    border:solid 1px transparent;
+    box-shadow:0px 0px 10px black;
+    border-radius:10px;
+    padding:20px;
+    width:32%
+    
+}
+
+/* PORTFOLIO 
+====================================================================== */
+
+#portfolio img {
+    width:100%;
+    height:auto;
 }
