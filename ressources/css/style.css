@@ -166,4 +166,58 @@ nav {
 #portfolio img {
     width:100%;
     height:auto;
+    border:1px solid transparent;
+    box-shadow:0 0 10px black;
+    border-radius:10px;
+    transition:all 0.5s;
+}
+#portfolio {
+    padding-bottom: 100px;
+}
+#portfolio img:hover {
+    transform:scale(1.1);
+}
+
+/* CONTACT 
+====================================================================== */ 
+
+#contact {
+    background-image: url(../img/contact.jpg);
+    background-size:cover;
+    background-attachment: fixed;
+    padding-bottom:100px;
+}
+#contact p {
+    padding-top:10px;
+    font-size:18px;
+    text-align:center;
+    color:orange;
+    font-family:'Genos', sans-serif;
+    font-weight:bold;
+}
+#contact a {
+    color:orange;
+    transition:all 0.5s;
+}
+#contact a:hover {
+    color:indigo;
+}
+#contact i {
+    font-size:30px;
+    margin-right:10px;
+}
+#linkedin i {
+    font-size:120px;
+    text-align:center;
+}
+.bloc-contact {
+    border:1px solid transparent;
+    box-shadow:0 0 10px black;
+    margin: 20px 20px;
+    border-radius:10px;
+    background:linear-gradient(rgba(38,38,177,0.5), rgba(0,212,255,0.5));
+    transition:all 0.7s;
+}
+.bloc-contact:hover {
+    transform:scale(1.03);
 }
