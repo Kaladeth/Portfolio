@@ -44,6 +44,7 @@ h3:after {
 nav {
     background-color:darkblue;
     opacity:0.8;
+    position:sticky;
 }
 
 /* PRESENTATION
@@ -220,4 +221,21 @@ nav {
 }
 .bloc-contact:hover {
     transform:scale(1.03);
+}
+
+/* FOOTER */ 
+
+footer {
+    background-color: darkslategray;
+    padding-top:50px;
+}
+footer i {
+    font-size:300%;
+}
+footer p {
+    text-align:center;
+}
+#sign i{
+    font-size:100%;
+    margin-right:3px;
 }
